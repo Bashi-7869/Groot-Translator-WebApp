@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,700&family=Courgette&family=Stoke&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
 .body{
-    font-family: 'Courgette', cursive;
-    margin: 0%;
-    text-decoration: none;
+   
+   font-family: 'Stoke', serif;
+   margin: 0%;
+   text-decoration: none;
      
  }
  :root{
