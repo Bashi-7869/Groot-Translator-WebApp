@@ -57,4 +57,32 @@ textarea{
    padding: 1rem;
 }   
     
-
+button{ 
+   box-sizing: border-box;
+  display: block; 
+   margin-top:1rem;
+  margin-bottom: 1rem;
+  background-color: var(--praimary-color);
+  border: 3px solid black ;
+  border-radius: 0.7rem;
+  padding: 1rem 3rem;
+  font-family: 'Courgette', cursive;
+  font-size: large;
+  margin-left: 20%;
+}
+ 
+#textoutput{
+  
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  min-height: 20vh;
+  margin-top: 0.2rem;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 0.2rem solid black; 
+  padding: 1rem;
+  margin-bottom: 2rem;
+ } 
