@@ -16,7 +16,30 @@ font-family: 'Merriweather', serif;
  :root{
     --praimary-color:#92400e;
  }
- #text-input{
+
+.nav{
+   background-color:var(--praimary-color);
+   padding: 3rem 3rem;
+   text-align: center; 
+   /* border-bottom: 2px solid brown; */
+ }  
+ .heading{
+   
+    text-align: center;
+   font-family: 'Courgette', cursive;  
+    font-size: xx-large; 
+}
+
+
+    img{
+   
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+      padding:0.5rem ; 
+   } 
+ #textinput{
    box-sizing: border-box;
    display: block;
    margin-left: auto;
