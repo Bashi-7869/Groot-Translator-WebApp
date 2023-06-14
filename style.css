@@ -3,43 +3,41 @@
     margin: 0px;
     padding: 0px;
 }
+
 .body{
-   
-/* font-family: 'Cormorant Infant', serif;
-font-family: 'Courgette', cursive; */
-font-family: 'Merriweather', serif;
-/* font-family: 'Stoke', serif; */
-   margin: 0%;
+   /* font-family: 'Cormorant Infant', serif; */
+   /* font-family: 'Courgette', cursive;  */
+/* font-family: 'Merriweather', serif; */
+  font-family: 'Stoke', serif;
+   margin: 0%; 
    text-decoration: none;
      
  }
+
  :root{
-    --praimary-color:#92400e;
+    --praimary-color:#7c2d12;
  }
 
-.nav{
+nav{
    background-color:var(--praimary-color);
-   padding: 3rem 3rem;
+   font-size: xx-large;
+   padding: 4rem 4rem;
    text-align: center; 
+   font-family: 'Cormorant Infant', serif; 
    /* border-bottom: 2px solid brown; */
- }  
- .heading{
-   
-    text-align: center;
-   font-family: 'Courgette', cursive;  
-    font-size: xx-large; 
-}
 
+ } 
 
-    img{
-   
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       width: 50%;
-      padding:0.5rem ; 
-   } 
- #textinput{
+ .image {
+   display: block;
+   /* margin-left: auto;
+   margin-right: auto; */
+   margin: auto;
+   width: 50%;
+   padding:0.5rem ; 
+} 
+
+#textinput{
    box-sizing: border-box;
    display: block;
    margin-left: auto;
@@ -48,6 +46,7 @@ font-family: 'Merriweather', serif;
    min-height: 20vh;
    
 }
+
 textarea{
    min-height: 20vh;
    margin-top: 0.2rem;
@@ -60,6 +59,7 @@ textarea{
 button{ 
    box-sizing: border-box;
   display: block; 
+  margin: auto;
    margin-top:1rem;
   margin-bottom: 1rem;
   background-color: var(--praimary-color);
@@ -68,11 +68,10 @@ button{
   padding: 1rem 3rem;
   font-family: 'Courgette', cursive;
   font-size: large;
-  margin-left: 20%;
+  
 }
  
 #textoutput{
-  
   box-sizing: border-box;
   display: block;
   margin-left: auto;
@@ -86,3 +85,5 @@ button{
   padding: 1rem;
   margin-bottom: 2rem;
  } 
+
+ 
