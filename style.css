@@ -86,4 +86,13 @@ button{
   margin-bottom: 2rem;
  } 
 
+footer{
+    background-color: black;
+    padding: 3rem;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+}
+
  
