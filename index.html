@@ -5,35 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Groot Translator</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navigation">
+    <nav class="nav">
     <h1 class="heading">Groot Speak</h1>
     </nav>
-    </header>
-       <img src="Groot.gif" alt="gif">
     <header>
+       <img class="image" src="groot.gif" alt="gif">
+    </header>
     <main>
-        <textarea id="textinput">Enter Your Text Here</textarea>
+        <textarea id="textinput" placeholder="Enter Your Text Here"></textarea> 
         <button id="button">Click Me</button>
-        <div id="textoutput">Translation will be here</div>
+        <div id="output"></div>
     </main>
     <footer id="foot">
         <h4>Connect With Me On:</h4>
         <ul>
           <li>
-              <a class="linka list-item-inline" href="#" target="_blank">
-                 <img src="Linkedin.png" width="50px" alt="Linkedin">
-              </a>
-              <a class="linka list-item-inline" href="#" target="_blank">
-                 <img src="Github.png" width="50px" alt="Github">
-              </a>
-              
-              <a class="linka list-item-inline" href="#" target="_blank">
-                <img src="Twitter.png" width="50px" alt="Twitter">
-              </a>
+            <a class="link list-item-inline" href="#" target="_blank">
+              <img src="Linkedin.png" width="50px" alt="Linkedin">
+            </a>
+
+            <a class="link" href="#" target="_blank">
+              <img src="Github.png"  width="50px" alt="Github">
+            </a>
+
+            <a class="link list-item-inline" href="#" target="_blank">
+              <img src="Twitter.png" width="50px" alt="Twitter">
+            </a>
          </li>
       </ul>
     </footer>
 </body>
+   <script src="app.js" type="text/javascript"></script>
 </html>
