@@ -29,5 +29,9 @@ button.addEventListener('click', (clickHandler) =>{
    .catch(errorHandler)
 });
  
-
-
+function errorHandler(error){
+   console.log("error occurred", error);
+   alert("Someting Went Wrong With Server! try again after some time")
+   }
+   
+   
