@@ -15,19 +15,19 @@ function getserverURL(text){
    return serverUrl + "?" + "text=" + text
 }
 
+button.addEventListener('click', (clickHandler) =>{
+// taking input from user
+    let inputText = textInput.value;
 
-   function clickHandler(){
+   //  processing dsta
+    fetch(getserverURL(inputText))
+    .then(rsponse => rsponse.json())
+    .then (json =>{let translatedText = json.contents.translated;
+           outputDiv.innerText = translatedText;            // Showing the output to the user
+   })
+   //  When error occured error handling
+   .catch(errorHandler)
+});
+ 
 
-      // taking input from user
-       let inputText = textInput.value;
 
-      //  processing dsta
-       fetch(getserverURL(inputText))
-       .then(rsponse => rsponse.json())
-       .then (json =>{let translatedText = json.contents.translated;
-              outputDiv.innerText = translatedText;            // Showing the output to the user
-      })
-    
-   }
-
-button.addEventListener('click', clickHandler);
