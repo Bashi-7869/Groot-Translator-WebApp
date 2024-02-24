@@ -32,7 +32,7 @@ button.addEventListener('click',(clickHandler) => {
 });
     
 
-// howing error when error hapends
+// showing error when error hapends
 function errorHandler (error){
    console.log("Error Occurred", error);
    alert("Somethin went wrong with server! Try  agin some time leter")
