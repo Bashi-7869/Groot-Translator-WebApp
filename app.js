@@ -9,6 +9,11 @@ const outputDiv = document.querySelector('#output');
 //   storing url
 let serverUrl = "https://api.funtranslations.com/translate/groot.json"
 
+ 
+//converting text and addding queryperams and textkey to server URL
+ function getserverURL(text){
+   return serverUrl + "?" + "text=" + text
+}
 
 button.addEventListener('click',(clickHandler) => {
     // taking input from user
@@ -26,4 +31,5 @@ button.addEventListener('click',(clickHandler) => {
 
 });
     
-  
+
+
